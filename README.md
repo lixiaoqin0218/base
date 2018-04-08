@@ -1,4 +1,4 @@
-# [jslib-base](https://github.com/jsmini/jslib-base) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/jsmini/jslib-base) [![npm](https://img.shields.io/badge/npm-0.2.0-orange.svg)](https://www.npmjs.com/package/jslib-base) [![Build Status](https://travis-ci.org/jsmini/jslib-base.svg?branch=master)](https://travis-ci.org/jsmini/jslib-base) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/jslib-base/blob/master/LICENSE)
+# [base](https://github.com/jsmini/base) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.2.0-orange.svg)](https://www.npmjs.com/package/base) [![Build Status](https://travis-ci.org/jsmini/base.svg?branch=master)](https://travis-ci.org/jsmini/base) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/base/blob/master/LICENSE)
 最好用的js第三方库脚手架，fork或clone本仓库，即可搭建完成一个新库的基础框架
 
 ## 特性
@@ -45,37 +45,41 @@
 通过npm下载安装代码
 
 ```bash
-$ npm install --save @jsmini/jslib_base
+$ npm install --save @jsmini/base
 ```
 
 如果你是node环境
 
 ```js
-var base = require('@jsmini/jslib_base');
+var name = require('@jsmini/base').name;
 ```
 
 如果你是webpack等环境
 
 ```js
-import base from '@jsmini/jslib_base';
+import { name } from '@jsmini/base';
 ```
 
 如果你是requirejs环境
 
 ```js
-requirejs(['node_modules/@jsmini/jslib_base/dist/index.aio.js'], function (base) {
-    // xxx
+requirejs(['node_modules/@jsmini/base/dist/index.aio.js'], function (jsmini_base) {
+    var name = jsmini_base.name;
 })
 ```
 
 如果你是浏览器环境
 
 ```html
-<script src="node_modules/@jsmini/jslib_base/dist/index.aio.js"></script>
+<script src="node_modules/@jsmini/base/dist/index.aio.js"></script>
+
+<script>
+    var name = jsmini_base.name;
+</script>
 ```
 
 ## 文档
-[API](https://github.com/jsmini/jslib-base/blob/master/doc/api.md)
+[API](https://github.com/jsmini/base/blob/master/doc/api.md)
 
 ## 贡献指南
 首次运行需要先安装依赖
@@ -116,16 +120,11 @@ $ npm publish --access=public
 - test/browser/index.html 中的仓库名称
 
 ## 更新日志
-[CHANGELOG.md](https://github.com/jsmini/jslib-base/blob/master/CHANGELOG.md)
+[CHANGELOG.md](https://github.com/jsmini/base/blob/master/CHANGELOG.md)
 
 ## 计划列表
-[TODO.md](https://github.com/jsmini/jslib-base/blob/master/TODO.md)
+[TODO.md](https://github.com/jsmini/base/blob/master/TODO.md)
 
 ## 谁在使用
 
-- [type.js](https://github.com/jsmini/type.js)
-- [is.js](https://github.com/jsmini/is.js)
-- [inherits.js](https://github.com/jsmini/inherits.js)
-- [guid.js](https://github.com/jsmini/guid.js)
-- [console.js](https://github.com/jsmini/console.js)
-- [event.js](https://github.com/jsmini/event.js)
+- [type](https://github.com/jsmini/type)
