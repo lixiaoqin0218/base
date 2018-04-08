@@ -1,4 +1,4 @@
-# [jslib-base](https://github.com/yanhaijing/jslib-base) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/yanhaijing/jslib-base) [![npm](https://img.shields.io/badge/npm-0.2.0-orange.svg)](https://www.npmjs.com/package/jslib-base) [![Build Status](https://travis-ci.org/yanhaijing/jslib-base.svg?branch=master)](https://travis-ci.org/yanhaijing/jslib-base) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yanhaijing/jslib-base/blob/master/LICENSE)
+# [jslib-base](https://github.com/jsmini/jslib-base) [![](https://img.shields.io/badge/Powered%20by-jslib%20base-brightgreen.svg)](https://github.com/jsmini/jslib-base) [![npm](https://img.shields.io/badge/npm-0.2.0-orange.svg)](https://www.npmjs.com/package/jslib-base) [![Build Status](https://travis-ci.org/jsmini/jslib-base.svg?branch=master)](https://travis-ci.org/jsmini/jslib-base) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jsmini/jslib-base/blob/master/LICENSE)
 最好用的js第三方库脚手架，fork或clone本仓库，即可搭建完成一个新库的基础框架
 
 ## 特性
@@ -75,7 +75,7 @@ requirejs(['node_modules/jslib_base/dist/index.aio.js'], function (base) {
 ```
 
 ## 文档
-[API](https://github.com/yanhaijing/jslib-base/blob/master/doc/api.md)
+[API](https://github.com/jsmini/jslib-base/blob/master/doc/api.md)
 
 ## 贡献指南
 首次运行需要先安装依赖
@@ -105,7 +105,7 @@ $ npm run release
 将新版本发布到npm
 
 ```bash
-$ npm publish
+$ npm publish --access=public
 ```
 
 可能需要你自己修改的地方如下：
@@ -116,16 +116,16 @@ $ npm publish
 - test/browser/index.html 中的仓库名称
 
 ## 更新日志
-[CHANGELOG.md](https://github.com/yanhaijing/jslib-base/blob/master/CHANGELOG.md)
+[CHANGELOG.md](https://github.com/jsmini/jslib-base/blob/master/CHANGELOG.md)
 
 ## 计划列表
-[TODO.md](https://github.com/yanhaijing/jslib-base/blob/master/TODO.md)
+[TODO.md](https://github.com/jsmini/jslib-base/blob/master/TODO.md)
 
 ## 谁在使用
 
-- [type.js](https://github.com/yanhaijing/type.js)
-- [is.js](https://github.com/yanhaijing/is.js)
-- [inherits.js](https://github.com/yanhaijing/inherits.js)
-- [guid.js](https://github.com/yanhaijing/guid.js)
-- [console.js](https://github.com/yanhaijing/console.js)
-- [event.js](https://github.com/yanhaijing/event.js)
+- [type.js](https://github.com/jsmini/type.js)
+- [is.js](https://github.com/jsmini/is.js)
+- [inherits.js](https://github.com/jsmini/inherits.js)
+- [guid.js](https://github.com/jsmini/guid.js)
+- [console.js](https://github.com/jsmini/console.js)
+- [event.js](https://github.com/jsmini/event.js)
