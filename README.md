@@ -132,3 +132,4 @@ $ npm publish --access=public
 - [guid](https://github.com/jsmini/guid)
 - [inherits](https://github.com/jsmini/inherits)
 - [event](https://github.com/jsmini/event)
+- [console](https://github.com/jsmini/console)
