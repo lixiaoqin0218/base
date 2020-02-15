@@ -30,13 +30,13 @@ test
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+fsfjsfjldsl
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
+{% api-method-parameter name="fdsf" type="string" required=false %}
 
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
@@ -49,7 +49,7 @@ test
 {% endapi-method-response-example-description %}
 
 ```
-
+{code:0}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
